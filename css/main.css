@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /************************** Fonts Styles **************************/
 /* rubik-regular - latin */
 @font-face {
@@ -192,8 +199,8 @@ a {
 
 .site-header__btn {
     padding: 10px 12px 10px 10px;
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(15.07%, #1E96C8), color-stop(85.96%, #37AEE2));
     background-image: -o-linear-gradient(left, #1E96C8 15.07%, #37AEE2 85.96%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(15.07%, #1E96C8), color-stop(85.96%, #37AEE2));
     background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
     border: none;
     border-radius: 5px;
@@ -414,8 +421,8 @@ a {
 .signal-section__btn {
     border: none;
     padding: 8px 8px 8px 15px;
-    background: -webkit-gradient(linear, left top, right top, from(#FE5C28), color-stop(88.43%, rgba(255, 139, 54, 0.9)));
     background: -o-linear-gradient(left, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    background: -webkit-gradient(linear, left top, right top, from(#FE5C28), color-stop(88.43%, rgba(255, 139, 54, 0.9)));
     background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
     border-radius: 5px;
     font-size: 20px;
@@ -711,6 +718,8 @@ a {
 }
 
 .article__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -741,6 +750,8 @@ a {
 }
 
 .article-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 20px;
     padding-bottom: 10px;
